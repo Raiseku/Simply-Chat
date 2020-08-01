@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimplyChatMancinelli</string>
+    <string name="checkbox">com.example.raise.simplychatmancinelli.checkbox</string>
+    <string name="Email">com.example.raise.simplychatmancinelli.Email</string>
+    <string name="password">com.example.raise.simplychatmancinelli.password</string>
+    <string name="Username">com.example.raise.simplychatmancinelli.username</string>
+
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfodnodfef"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/bLogout"
+        android:layout_width="126dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/bSettings"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@drawable/buttonshape"
+        android:text="Log Out"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/bSettings"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/buttonshape"
+        android:text="Impostazioni Account"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/bChat"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:text="Unisciti Alla chat"
+        />
+    <EditText
+        android:id="@+id/txName"
+        android:layout_width="189dp"
+        android:maxLength="10"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="142dp"
+        android:layout_toEndOf="@+id/bSettings"
+        android:layout_toRightOf="@+id/bSettings"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:hint="Nome per la Chat"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/txName"
+        android:layout_alignEnd="@+id/bSettings"
+        android:layout_alignRight="@+id/bSettings"
+        android:text="Username:"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+</RelativeLayout>
