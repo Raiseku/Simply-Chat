@@ -1,7 +1,6 @@
 # Simply-Chat
 
-Applicazione scritta in Java che fornisce una chat di gruppo a tutti gli utenti iscritti al servizio.
-Ogni utente, una volta iscritto, sceglie un username con il quale potrà accedere alla chat. Per la gestione dei dati l'app si appoggia a Firebase.
+Application written in Java that provides a group chat to all users enrolled in the service. Each user, once registered, chooses a username with which he can access the chat. For data management the app relies on Firebase.
 
 
 
